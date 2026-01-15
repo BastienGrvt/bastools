@@ -1,4 +1,5 @@
 from ._imports import *
+import subprocess
 
 
 def wsl_show(fig, file_path): 
