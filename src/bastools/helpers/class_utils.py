@@ -1,6 +1,6 @@
 from ._imports import *
 
-def get_not_none(self, arg, arg_type=object):
+def get_not_none(arg, arg_type=object):
     if arg is not None:
         if isinstance(arg, arg_type):
             return arg
@@ -9,7 +9,7 @@ def get_not_none(self, arg, arg_type=object):
     else:
         raise ValueError(f"Please set the parameters `arg` to not None value.")
 
-def set_not_none(self, class_parent, **kwargs):
+def set_not_none(class_parent, **kwargs):
     if class_parent is not None:
         for name, val in kwargs.items():
             if val is not None:

@@ -1,10 +1,10 @@
 from ._imports import *
 
 
-# FROM GEMINI -> NEED TO BE UNDERSTAND
-def subplot_grid(rows, cols, n_plots, plot_size=(5, 4), grid=True):
+def subplots_grid(rows, cols, n_plots, plot_size=(5, 4), grid=True):
     """
     Crée une figure avec des subplots centrés sur la dernière ligne si incomplète.
+    NB: vibe-coded method
     
     Args:
         rows (int): Nombre de lignes de la grille (N).
