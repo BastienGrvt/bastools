@@ -55,7 +55,7 @@ def subplots_grid(rows, cols, n_plots, plot_size=(5, 4), grid=True):
             # Création du subplot à l'emplacement précis
             ax = fig.add_subplot(gs[r, start_col:end_col])
             if grid:
-                ax.grid()
+                ax.grid(linestyle='--', alpha=0.7, zorder=0)
             axs.append(ax)
         
         plots_remaining -= plots_this_row

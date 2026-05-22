@@ -1,0 +1,7 @@
+# Python / Poetry Cache
+tmp/
+__pycache__/
+*.pyc
+poetry.lock
+
+
