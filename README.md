@@ -1,7 +1,6 @@
 # bastools
 
 Personal Python utilities for scientific plotting, formatting and data handling.
-Mainly LLM-generated with post-correction.
 
 ## installation
 

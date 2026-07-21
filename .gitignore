@@ -46,6 +46,6 @@ htmlcov/
 CLAUDE.md
 
 # Others...
-local/*
-tmp/*
+local/
+tmp/
 repomix-*.xml
