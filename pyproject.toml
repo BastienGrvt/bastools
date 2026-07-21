@@ -1,6 +1,6 @@
 [project]
 name = "bastools"
-version = "0.1.0"
+version = "0.1.1"
 description = "Personal Python utilities for scientific plotting, formatting and data handling"
 readme = "README.md"
 license = "Apache-2.0"
